@@ -113,7 +113,7 @@ sub check_soft
 	
 	if ($i > 0)
 	{
-		if ($i > $num)
+		if ($i >= $num)
 		{
 			print "OK for $file ($i found)\n";
 			exit $RETCODES{"OK"};
