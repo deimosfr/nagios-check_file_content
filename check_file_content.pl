@@ -40,7 +40,7 @@ sub help
 
 sub check_args 
  {
-        help if !(defined(@ARGV));
+        help if !@ARGV;
         
         my ($file,@include,@exclude);
         my $num=1;
